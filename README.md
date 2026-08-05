@@ -2,6 +2,19 @@
 
 Supply a tested AKS backup and disaster-recovery pattern with immutable recovery points.
 
+## Project metadata
+
+The metadata below is derived from tracked source, manifests, and infrastructure
+files. It describes what this repository includes; live-service integration remains
+bounded by the documented deployment and validation limitations.
+
+| Category | Included |
+| --- | --- |
+| Platforms | Microsoft Azure; GitHub Actions; Kubernetes |
+| Services and stack | AKS; Azure Backup; Velero; Blob Storage; Key Vault |
+| Languages and formats | Python; Bicep; Bicep parameters; Bash; JSON; YAML |
+| Delivery and IaC | Bicep + `.bicepparam`; GitHub Actions CI; Kubernetes/YAML manifests; Python validation/tests |
+
 ## Problem statement
 
 A backup policy request validates cluster scope, workload identity, protected-target approval, private storage, and retention evidence before Velero and Azure backup adapters run.
