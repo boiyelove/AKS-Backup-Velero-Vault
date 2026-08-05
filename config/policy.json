@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "project": "AKS-Backup-Velero-Vault",
+  "rank": 27,
+  "action": "plan_aks_backup_velero_vault",
+  "allowedCredentialModes": [
+    "managed_identity",
+    "workload_identity"
+  ],
+  "protectedTargets": [
+    "production",
+    "break-glass"
+  ],
+  "allowedTenantIds": [
+    "tenant-a"
+  ]
+}
