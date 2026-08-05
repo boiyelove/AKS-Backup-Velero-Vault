@@ -1,0 +1,11 @@
+{
+  "tenantId": "tenant-a",
+  "correlationId": "rank-27-demo-001",
+  "target": "development",
+  "requestedAction": "plan_aks_backup_velero_vault",
+  "credentialMode": "workload_identity",
+  "publicNetworkAccess": false,
+  "evidenceFresh": true,
+  "approved": false,
+  "containsSecret": false
+}
